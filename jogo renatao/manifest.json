@@ -1,0 +1,23 @@
+{
+    "name": "jogo renatao",
+    "short_name": "velha",
+    "icons": [
+        {
+            "src": "images/table.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+
+        {
+            "src": "images/diamante.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}
