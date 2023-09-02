@@ -2,8 +2,25 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #E8C5DD;
+    text-align: center;
+}
+main{
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+}
+h1{
+    margin-bottom: 10px;
+    color: #632A6B;
+    font-size: 50px;
+}
+.display{
+    font-size: large;
+
+}
 .container {
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
@@ -11,7 +28,7 @@
 }
 
 .quadradinho {
-    border: 1px solid black;
+    border: 1px solid white;
     min-width: 100px;
     min-height: 100px;
     display: flex;
@@ -19,4 +36,16 @@
     align-items: center;
     font-size: 50px;
     cursor: pointer;
+    margin: 5px;
+    box-shadow: whitesmoke 0px 1px 1px 0px inset, whitesmoke 0px 50px 100px -20px, whitesmoke 0px 30px 60px -30px;    
+}
+button{
+  background-color: #8e44ad; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.2); 
+  cursor: pointer;
+  margin-top: 15px;
 }

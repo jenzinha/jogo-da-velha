@@ -6,6 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const botaoReset = document.querySelector('#reset');
     const aviso = document.querySelector('.aviso');
 //pegando todos os componentes que vamos precisar
+
 let tela = ['', '', '', '', '', '', '', '', '']; //tela com array de de strings vazias que irao conter x e o
 let jogadorAtual = 'X'; //jogador ativo que vai ter o sinal do jogador atual
 let jogoAndando = true; //variável será verdadeira até que alguém ganhe ou o jogo termine empatado,  dai, definiremos como falso para que os blocos restantes fiquem inativos até uma reinicialização
